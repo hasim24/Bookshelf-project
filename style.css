@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: aqua;
+    width: 100%;
+    height: 120px;
+    border: none;
+    border-radius: 10px;
+}
+#navbar h1{
+    text-align: center;
+    padding-top: 45px;
+}
+.content{
+    width: 300px;
+    background-color: black;
+    color: aqua;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#container h2{
+    padding: 10px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+#container h3{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+#container p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+#container button{
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: aqua;
+    color: black;
+}
+#add{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    padding: 7px;
+    border: none;
+    border-radius: 100%;
+    font-size: xx-large;
+    background-color: black;
+    color: aqua;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+#popup{
+    width: 400px;
+    background-color: aqua;
+    position: absolute;
+    left: 33%;
+    top: 30%;
+    border: none;
+    border-radius: 10px;
+    z-index: 2;
+    display: none;
+}
+#popup h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#bookt{
+    color: black;
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    background-color: aqua;
+}
+#auth{
+    color: black;
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    background-color: aqua;
+}
+#popup textarea{
+    color: black;
+    width: 90%;
+    padding: 5px;
+    height: 50px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    background-color: aqua;
+}
+#popup input::placeholder{
+    color: black;
+}
+#popup textarea::placeholder{
+    color: black;
+}
+#addb{
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#delete{
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+}
+

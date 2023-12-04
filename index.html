@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="has.js" defer></script>
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <div id="content">
+    <div id="navbar">
+        <h1>Bookshelf</h1>
+    </div>
+    <div id="container">
+        <div class="content">
+            <h2>Anna Karenina</h2>
+            <h3>Leo Tolstoy</h3>
+            <p>A sprawling epic that takes readers across continents in the name of love, Anna Karenina is one of the longest books on this list, coming to an intimidating 800+ pages. But those who persevere with this colossus of a novel are richly rewarded. In what is considered by many to be the best romance novel of all time.</p>
+            <button id="del" onclick="erase(event)">Delete</button>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <div id="popup">
+        <h3>Add Book</h3>
+        <input type="text" placeholder="Book name" id="bookt">
+        <input type="text" placeholder="Author name" id="auth">
+        <textarea id="tarea" placeholder="Short Description"></textarea>
+        <button id="addb">Add</button>
+        <button id="delete">Cancel</button>
+    </div>
+    <div>
+        <button id="add">+</button>
+    </div>
+</div>
+
+</body>
+</html>
